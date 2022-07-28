@@ -1,0 +1,84 @@
+<<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font google link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+<!-- font awesome link -->
+<script src="https://kit.fontawesome.com/ba075eb5e7.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+    <header>
+       <!--------------------------------
+        -------- navbar section ------
+    ----------------------------------->
+    <section class="bg-light fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg py-4">
+                <div class="container-fluid">
+                  <a class="navbar-brand fs-3 font-bold bebas" href="#"><i class="fa-solid fa-user-graduate"></i>Hedayat Education</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav gap-4 mx-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link text-dark font-bold"href="#">Home</a>
+                      </li>
+                    </ul>
+                     </div>
+                     <div class="d-none d-lg-block">
+                        <button class="btn border border-info text-info px-4 font-bold" type="submit">Register</button>
+                     </div>
+                </div>
+              </nav>
+        </div>
+    </section>
+    <h1>jamaler mar pitha khawar form</h1>
+    </header>
+    <form action="">
+    <p> name: <input type="text" name="name" placeholder="enter yout name" id=""></p>
+    <p> email: <input type="text" name="email" placeholder="enter yout email" id=""></p>
+    <p> no.: <input type="text" name="no." placeholder="enter yout no." id=""></p>
+    <fieldset>
+        <legend> select you pitha</legend>
+        <p>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">chitoy
+                </label>
+        </p>
+        <p>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="vapa">vapa
+                </label>
+        </p>
+        <p>
+                <label for="tell er pitha">
+                    <input type="radio" name="pitha" id="tell er pitha">tell er pitha
+                </label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>select your vorta</legend>
+        <p><label for="sorisa"><input type="checkbox" name="vorta" id="sorisa">sorisa</label></p>
+        <p><label for="sutki"><input type="checkbox" name="vorta" id="sutki">sutki</label></p>
+        <p><label for="begun"><input type="checkbox" name="vorta" id="begun">begun</label></p>
+    </fieldset>
+    <p>
+        special instruction
+        <br>
+        <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+    </p>
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+</form>
+</body>
+</html>

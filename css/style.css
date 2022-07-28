@@ -1,0 +1,24 @@
+.bebas{
+    font-family: 'Bebas Neue';
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.Explore{
+    background-color: #F4FAFD;
+}
+.Explore-img img{
+    height: auto;
+}
+
+.star-color{
+    color: #F59E0B;
+}
+@media screen and (max-width:576px){
+   .course img{
+    width: 100%;
+   } 
+}
